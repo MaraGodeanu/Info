@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    float a,b,c;
+    float a,b,c,z;
     char opt;
     cout<<"a= ";
     cin>>a;
@@ -13,13 +13,15 @@ int main()
     cin>>b;
     cout<<"c= ";
     cin>>c;
+    cout<<"z= ";
+    cin>>z;
     cout<<"Optiunile valabile sunt x,y,z,w"<<endl;
     cout<<"opt= ";
     cin>>opt;
     switch(opt)
     {
         case 'x':
-            cout<<"E7= "<<(min(a-2,b+3)+sqrt(b-1)+a)/(abs(a+3)-2*a+b)<<endl;//am inlocuit z-ul din partea superioara a fractiei cu a
+            cout<<"E7= "<<(min(a-2,b+3)+sqrt(b-1)+z)/(abs(a+3)-2*a+b)<<endl;
             break;
         case 'y':
             cout<<"E7= "<<(min(3-2*a,2+b)-a+2*c)/(max(3-2*a,2+b)-3*c)<<endl;
