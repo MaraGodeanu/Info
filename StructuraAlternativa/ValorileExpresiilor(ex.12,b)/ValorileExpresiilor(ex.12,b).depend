@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1544076845 source:e:\godeanu mara\structuraalternativa\valorileexpresiilor(ex.12,b)\main.cpp
+	<iostream>
+	<math.h>
+	<stdlib.h>
+
